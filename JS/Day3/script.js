@@ -54,12 +54,6 @@ const partOne = (input) => {
   return total;
 };
 
-const test = () => {
-  const kake = [];
-  kake[15] += 1;
-  console.log(typeof kake[152]);
-};
-
 const partTwo = (input) => {
   const chars = [];
   let total = 0;
